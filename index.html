@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" rel="stylesheet">
+    <title>可部署的前端页面</title>
+</head>
+
+<body class="bg-gray-100 font-sans">
+    <!-- 导航栏 -->
+    <nav class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <h1 class="text-xl font-bold text-gray-800">My Page</h1>
+            <ul class="flex space-x-4">
+                <li><a href="#" class="text-gray-600 hover:text-gray-800 transition-colors duration-300">Home</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-800 transition-colors duration-300">About</a></li>
+                <li><a href="#" class="text-gray-600 hover:text-gray-800 transition-colors duration-300">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 英雄区域 -->
+    <section class="hero bg-cover bg-center h-screen flex items-center justify-center"
+        style="background-image: url('https://picsum.photos/1920/1080');">
+        <div class="text-center text-white">
+            <h2 class="text-5xl font-bold mb-4">Welcome to Our World</h2>
+            <p class="text-xl mb-8">Explore the amazing things we have to offer.</p>
+            <a href="#"
+                class="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-md transition-colors duration-300">Learn
+                More</a>
+        </div>
+    </section>
+
+    <!-- 特色区域 -->
+    <section class="features container mx-auto px-4 py-16 grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+            <i class="fa-solid fa-star text-4xl text-yellow-500 mb-4"></i>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">High Quality</h3>
+            <p class="text-gray-600 leading-relaxed">We ensure the highest quality in everything we do.</p>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+            <i class="fa-solid fa-clock text-4xl text-green-500 mb-4"></i>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">Fast Delivery</h3>
+            <p class="text-gray-600 leading-relaxed">Get your products delivered quickly and efficiently.</p>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300">
+            <i class="fa-solid fa-headset text-4xl text-blue-500 mb-4"></i>
+            <h3 class="text-xl font-bold text-gray-800 mb-2">24/7 Support</h3>
+            <p class="text-gray-600 leading-relaxed">Our support team is available round the clock to assist you.</p>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-3 text-center text-gray-600">
+            &copy; 2025 My Page. All rights reserved.
+        </div>
+    </footer>
+</body>
+
+</html>
+    
